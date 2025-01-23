@@ -1,0 +1,16 @@
+total = int(input("Please enter a number"))
+letter = "y"
+looping = True
+while letter == "y":
+    number = int(input("Please enter a number"))
+    total = number + total
+    print(total)
+    letter = input("Do you want to add another number?")
+    if letter != "y":
+        print(total)
+    else:
+        looping = False
+
+        
+    
+    

@@ -1,7 +1,10 @@
 looping = True
 count = 0
+letter = "y"
 while letter == "y":
     name = input("Enter the name of a person that you want to invite to the party")
     print(name,"has now been invited")
     count = count + 1
-    letter = input("Do you want to invite anyone else? y/n")
+    letter = input("Do you want to invite anyone else? y/n.")
+print(count,"person/people has/have been invited to the party")
+

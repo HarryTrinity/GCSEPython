@@ -1,0 +1,15 @@
+compnum = 50
+num = 0
+count = 1
+while num != compnum:
+    num = int(input("Enter a number"))
+    if num > compnum:
+        print("Too high, have another guess")
+        count = count + 1
+    elif num < compnum:
+        print("Too low, have another guess")
+        count = count + 1
+    else:
+        num = compnum
+print("Well done, you took {} attempts".format(count))
+ 

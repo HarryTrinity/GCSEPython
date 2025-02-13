@@ -1,0 +1,5 @@
+count = 0
+while count < count + 1:
+    surname = input("What is your last name?").title()
+    count = count + 1 
+    print(surname[0:3]+str(count))

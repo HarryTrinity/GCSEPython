@@ -1,0 +1,20 @@
+import random
+num = random.randint(1,5)
+num1 = int(input("Pick a number from 1 to 5"))
+if num1 == num:
+    print("Well done")
+elif num1 > num:
+    print("You are too high")
+    num1 = int(input("Try again"))
+    if num == num1:
+              print("Correct")
+    else:
+        print("You lose")
+elif num1 < num:
+    print("You are too low")
+    num1 = int(input("Try again"))
+    if num1 == num:
+        print("Correct")
+    else:
+        print("You lose")
+    

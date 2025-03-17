@@ -1,0 +1,20 @@
+import random
+looping = True
+List = ('Blue','Red','Yellow','Green','Orange')
+print(List)
+colour = random.choice(List)
+colourchoice = input("Pick a colour from the list")
+if colourchoice == colour:
+    print("Well done")
+    looping = False
+else:
+    while looping == True: 
+        print("I bet you're feeling quite",colour,"right now")
+        colourchoice = input("Enter a colour")
+        if colourchoice == colour:
+            print("Well done")
+            looping = False
+        else:
+            print("Try again")
+            looping = True
+

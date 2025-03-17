@@ -1,0 +1,10 @@
+import random
+num = random.randint(1,10)
+correct = False
+while correct == False:
+    num1 = int(input("Enter a number between 1 and 10"))
+    if num1 == num:
+        correct = True
+        print("That's correct")
+    
+        

@@ -1,0 +1,13 @@
+import random
+score = 0
+for i in range(0,5):
+    num1 = random.randint(0,10)
+    num2 = random.randint(0,10)
+    print("I have picked two numbers between 1 and 10, guess the sum of the numbers")
+    answer = num1+num2
+    guess = int(input("Enter a guess"))
+    if answer == guess:
+        print("That's right")
+        score = score + 1
+print("Your score is",score)
+print("That is the end of the quiz")

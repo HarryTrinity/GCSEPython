@@ -1,0 +1,13 @@
+nums = []
+nums.append(int(input("Enter a number")))
+print(nums)
+nums.append(int(input("Enter a number")))
+print(nums)
+nums.append(int(input("Enter a number")))
+print(nums)
+choice = input("Do you still want the last number entered saved, 'y' or 'n'")
+if choice == "y":
+    print(nums)
+else:
+    del nums[2]
+    print(nums)

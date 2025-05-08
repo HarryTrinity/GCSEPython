@@ -1,0 +1,19 @@
+looping = True
+while looping == True:
+    names = []
+    names.append(input("Enter the names of three people you want to invite to a party"))
+    choice = input("Do you want to add more people")
+    if len(str(choice)) == 3:
+        looping1 = True
+        while looping1 == True:
+             names.append(input("Enter the names of people you want to invite to a party"))
+             choice1 = input("Do you want to add more people?")
+             if choice1 == "yes":
+                 looping1 = False
+             else:
+                     looping1 = True
+    else:
+        looping = False
+    print(names)
+
+    

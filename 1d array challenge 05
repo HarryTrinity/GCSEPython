@@ -1,0 +1,10 @@
+food = []
+food.append(input("Enter food"))
+food.append(input("Enter food"))
+food.append(input("Enter food"))
+food.append(input("Enter food"))
+print(food)
+choice = int(input("Enter a number indicating which position of the food you would like to remove"))
+choice = choice - 1
+del food[choice]
+print(food)

@@ -1,0 +1,9 @@
+list1 = ["BBC","Cocomelon","Netflix","Prime Video"]
+print(list1[0])
+print(list1[1])
+print(list1[2])
+print(list1[3])
+show = input("Enter a show")
+location = int(input("Enter a position you want in the list")) 
+list1.insert(location-1,show)
+print(list1)

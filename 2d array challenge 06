@@ -1,0 +1,11 @@
+EmptyArray = [[0 for column in range(5)] for row in range(2)]
+print(EmptyArray)
+integer1 = int(input("Enter a range integer"))
+integer2 = int(input("Enter a range integer"))
+EmptyArray = [[0 for column in range(integer1)] for row in range(integer2)]
+print(EmptyArray)
+value = int(input("Enter an index"))
+value2 = int(input("Enter another index"))
+value3 = input("Enter what you want in place of this index")
+EmptyArray[value][value2] = value3 
+print(EmptyArray)

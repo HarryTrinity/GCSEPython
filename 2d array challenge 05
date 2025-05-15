@@ -1,0 +1,8 @@
+EmptyArray = [[0 for column in range(5)] for row in range(2)]
+print(EmptyArray)
+integer = int(input("Choose a range integer"))
+integer2 = int(input("Choose a range integer"))
+EmptyArray = [[0 for column in range(integer)] for row in range(integer2)]
+print(EmptyArray)
+
+

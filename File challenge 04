@@ -1,0 +1,11 @@
+names = open("names.txt","w")
+for i in range(0,5):
+    name = input("Enter name")
+    names.write(name+"\n")
+names.close()
+
+names = open("names.txt","r")
+for i in range(0,5):
+    print(names.readline())
+
+names.close()

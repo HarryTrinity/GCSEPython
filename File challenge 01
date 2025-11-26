@@ -1,0 +1,6 @@
+numbers = open("numbers.txt","w")
+for i in range(0,5):
+    inputs = input("Enter number")
+    numbers.write(inputs + ",")
+numbers.close()
+print("\nGo and open read.txt")

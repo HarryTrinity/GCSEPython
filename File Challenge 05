@@ -1,0 +1,10 @@
+names = open("names.txt","w")
+for i in range(0,5):
+    name = input("Enter name")
+    names.write(name+"\n")
+names.close()
+
+names = open("names.txt","a")
+new_name = input("Enter a new name")
+names.write(new_name+"\n")
+names.close()

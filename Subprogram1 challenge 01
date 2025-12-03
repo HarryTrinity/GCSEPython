@@ -1,0 +1,14 @@
+def menu():
+    Career_mode = input("Career mode?")
+    if Career_mode == "y":
+        print("Entering career mode")
+    Tournament_mode = input("Tournament mode?")
+    if Tournament_mode == "y":
+        print("Entering tournament mode")
+    Online_Seasons = input("Online seasons")
+    if Online_Seasons == "y":
+        print("Entering Online seasons")
+        
+menu()
+
+            

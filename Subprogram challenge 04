@@ -1,0 +1,30 @@
+def menu():
+    print("Option 1 creative")
+    print("Option 2 Survival")
+    print("Option 3 Hardcore")
+    print("Option 4 Adventure")
+    print("Option 5 Exit")
+    looping = True
+    while looping == True:
+        option = int(input("Enter option"))
+        if option == 1:
+            print("Creative Selected")
+            looping = False
+        elif option == 2:
+            print("Survival selected")
+            looping = False
+        elif option == 3:
+            print("Hardcore selected")
+            looping = False
+        elif option == 4:
+            print("Adventure selected")
+            looping = False
+        elif option == 5:
+            print("Exiting")
+            looping = False
+        else option >= 6:
+            print("Invalid choice")
+            looping = True
+            
+menu()
+         

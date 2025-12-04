@@ -41,10 +41,11 @@ def menu():
   print("Division")
   print("MOD")
   print("DIV")
-  option = int(input("""0, for option exit, 1 for timetables, 2 for adding, 3 for
-  multiplication, 4 for subtraction, 5 for division, 6 for MOD, 7 for DIV"""))
   looping = True
-  while looping == True:
+  while looping == True:      
+    option = int(input("""0, for option exit, 1 for timetables, 2 for adding, 3 for
+    multiplication, 4 for subtraction, 5 for division, 6 for MOD, 7 for DIV"""))
+  
     if option == 0:
         print("Bye")
         looping = False
@@ -72,3 +73,4 @@ def menu():
     else:
         print("Incorrect choice, try again")
 menu()    
+

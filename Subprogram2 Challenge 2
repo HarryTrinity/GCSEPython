@@ -1,0 +1,16 @@
+def timetables():
+  timetable = int(input("Enter number between 1 and 12"))
+  timetable_list =["a","b","c","d","e","f","g","h","i","j","k","l"]
+  print(timetable_list[timetable-1])
+    
+def menu():
+  print("Exit")
+  print("Timetables")
+  option = int(input("0, for option exit, 1 for timetables"))
+  if option == 0:
+    print("Bye")
+  elif option == 1:
+    print(timetables())
+    
+menu()    
+

@@ -1,0 +1,74 @@
+def timetables():
+  timetable = int(input("Enter number between 1 and 12"))
+  timetable_list =["a","b","c","d","e","f","g","h","i","j","k","l"]
+  print(timetable_list[timetable-1])
+def adding():
+    num1 = int(input("Enter a number"))
+    num2 = int(input("Enter another number"))
+    total = num1 + num2
+    print("The total is ",total)
+def multiplication():
+    num1 = int(input("Enter a number"))
+    num2 = int(input("Enter another number"))
+    total = num1 * num2
+    print("The total is", total)
+def subtraction():
+    num1 = int(input("Enter a number"))
+    num2 = int(input("Enter another number"))
+    total = num1 - num2
+    print("The subtraction gives", total)
+def division():
+    num1 = int(input("Enter a number"))
+    num2 = int(input("Enter another number"))
+    total = num1 / num2
+    print("The division is ", total)
+def MOD():
+    num1 = int(input("Enter a number"))
+    num2 = int(input("Enter another number"))
+    total = num1 % num2
+    print("The MOD is", total)
+def DIV():
+    num1 = int(input("Enter a number"))
+    num2 = int(input("Enter another number"))
+    total = num1 // num2
+    print("The division is ", total)
+def menu():
+  print("Exit")
+  print("Timetables")
+  print("Adding")
+  print("Multiplication")
+  print("Subtraction")
+  print("Division")
+  print("MOD")
+  print("DIV")
+  option = int(input("""0, for option exit, 1 for timetables, 2 for adding, 3 for
+  multiplication, 4 for subtraction, 5 for division, 6 for MOD, 7 for DIV"""))
+  looping = True
+  while looping == True:
+    if option == 0:
+        print("Bye")
+        looping = False
+    elif option == 1:
+        print(timetables())
+        looping = False
+    elif option == 2:
+        adding()
+        looping = False
+    elif option == 3:
+        multiplication()
+        looping = False
+    elif option == 4:
+        subtraction()
+        looping = False
+    elif option == 5:
+        division()
+        looping = False
+    elif option == 6:
+        MOD()
+        looping = False
+    elif option == 7:
+        DIV()
+        looping = False
+    else:
+        print("Incorrect choice, try again")
+menu()    

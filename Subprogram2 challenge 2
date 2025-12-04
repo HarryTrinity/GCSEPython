@@ -1,0 +1,23 @@
+def timetables():
+  timetable = int(input("Enter number between 1 and 12"))
+  timetable_list =["a","b","c","d","e","f","g","h","i","j","k","l"]
+  print(timetable_list[timetable-1])
+def adding():
+    num1 = int(input("Enter a number"))
+    num2 = int(input("Enter another number"))
+    total = num1 + num2
+    print("The total is ",total)
+    
+def menu():
+  print("Exit")
+  print("Timetables")
+  print("Adding")
+  option = int(input("0, for option exit, 1 for timetables, 2 for adding"))
+  if option == 0:
+    print("Bye")
+  elif option == 1:
+    print(timetables())
+  elif option == 2:
+    adding()
+
+menu()    
